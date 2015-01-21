@@ -20,7 +20,8 @@
 
 namespace CertiTrade;
 
-use GuzzleHttp\Client;
+require_once 'guzzle.phar';
+use Guzzle\Http\Client;
 
 /**
  * CTServer
