@@ -1,5 +1,9 @@
 {
   "autoload": {
     "psr-4": {"CertiTrade\\": "lib"}
+  },
+  "require": {
+    "guzzlehttp/guzzle": "5.1.0"
+
   }
 }
