@@ -3,6 +3,6 @@
     "psr-4": {"CertiTrade\\": "lib"}
   },
   "require": {
-    "guzzle/guzzle": "3.9.2"
+    "guzzle/http": "3.9.2"
   }
 }
