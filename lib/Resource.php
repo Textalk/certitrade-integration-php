@@ -2,8 +2,6 @@
 
 namespace CertiTrade;
 
-require_once 'HAL.php';
-
 class Resource extends HAL
 {
     public function __toString()

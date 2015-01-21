@@ -20,11 +20,6 @@
 
 namespace CertiTrade;
 
-require_once dirname(__FILE__) . '/vendor/autoload.php';
-require_once 'Resource.php';
-require_once 'Collection.php';
-require_once 'APIProblem.php';
-
 use Guzzle\Http\Client;
 
 /**
