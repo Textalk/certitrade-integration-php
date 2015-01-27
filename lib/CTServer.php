@@ -23,6 +23,7 @@ namespace CertiTrade;
 require_once 'Resource.php';
 require_once 'Collection.php';
 require_once 'APIProblem.php';
+require_once 'guzzle.phar';
 
 use Guzzle\Http\Client;
 
