@@ -444,7 +444,7 @@ class CTServer {
         // Just accepting the certificate the server presents to us is not enough, it must also be verified.
         //
         // Force SSL version because automagic handshake fails spectacularily
-        $request->getCurlOptions()->set(CURLOPT_SSLVERSION, 3);
+        // $request->getCurlOptions()->set(CURLOPT_SSLVERSION, 3);
         // Verify that the name provided by the certificate matches the hostname
         $request->getCurlOptions()->set(CURLOPT_SSL_VERIFYHOST, 2);
         // Verify that the certificate presented by the server has a valid certificate chain
