@@ -180,7 +180,7 @@ class CTServer {
      * @param  array  $products (OPTIONAL) A structure containing detailed information about the purchase. See the API docs for more information.
      * @return Resource|Collection|APIProblem
      */
-    public function debit_recurring($amount = null, $currency, $payment_account, $reference = null, $language = null, $description = null, $customer = array(), $products = array()) {
+    public function debit_recurring($amount, $currency, $payment_account, $reference = null, $language = null, $description = null, $customer = array(), $products = array()) {
         $data = array(
             "currency"        => $currency,
             "method"          => "RECURRING",
